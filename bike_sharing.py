@@ -44,10 +44,12 @@ with col2:
     registered_user_rent = main_df['registered'].sum()
     st.metric("Registered user rent", value=registered_user_rent)
 
+daily_sum_data = main_df.groupby('dteday')['cnt'].sum().reset_index()
+
 fig, ax = plt.subplots(figsize=(16, 8))
 ax.plot(
-    main_df["dteday"],
-    main_df["cnt"],
+    daily_sum_data["dteday"],
+    daily_sum_data["cnt"],
     marker='o', 
     linewidth=2,
     color="#90CAF9"
