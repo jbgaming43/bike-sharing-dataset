@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 import seaborn as sns
-from babel.numbers import format_currency
 from matplotlib.ticker import FuncFormatter
 sns.set(style='dark')
 
