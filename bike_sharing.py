@@ -117,7 +117,7 @@ counts = [count_year_0, count_year_1]
 fig, ax = plt.subplots(figsize=(35, 15))
 
 # Plot bar untuk year 0 dan year 1
-ax.bar(years, counts, color=['lightblue', 'lightgreen'])
+ax.bar(years, counts, color=['orange', 'orange'])
 
 # Menambahkan judul dan label sumbu
 
