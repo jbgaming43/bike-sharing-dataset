@@ -63,7 +63,7 @@ st.subheader("waktu paling ramai menyewa sepeda")
  
 fig, ax = plt.subplots(figsize=(35, 15))
  
-sns.barplot(x="hr", y="cnt", data=main_df, color="orange", ax=ax)
+sns.barplot(x="hr", y="cnt", data=main_df, color="orange", ax=ax, ci=None)
 ax.set_ylabel(None)
 ax.set_xlabel("Number of Rent", fontsize=30)
 ax.tick_params(axis='y', labelsize=35)
