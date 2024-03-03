@@ -161,7 +161,7 @@ counts = [count_weather_1, count_weather_2, count_weather_3, count_weather_4]
 fig, ax = plt.subplots(figsize=(35, 15))
 
 # Plot bar untuk year 0 dan year 1
-ax.bar(weather, counts, color=['yellow', 'lightblue', 'lightgrey', 'grey'])
+ax.bar(weather, counts, color=['orange'])
 
 # Menambahkan judul dan label sumbu
 
