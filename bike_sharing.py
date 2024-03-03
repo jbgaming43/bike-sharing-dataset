@@ -13,7 +13,7 @@ from babel.numbers import format_currency
 from matplotlib.ticker import FuncFormatter
 sns.set(style='dark')
 
-df_hour = pd.read_csv(r"C:/Users/LENOVO/Documents/school/SEM 6/dicoding dataset/hour.csv")
+df_hour = pd.read_csv(r"./hour_data.csv")
 
 df_hour['dteday'] = pd.to_datetime(df_hour["dteday"])
 min_date = df_hour["dteday"].min()
