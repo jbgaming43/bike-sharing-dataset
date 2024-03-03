@@ -20,7 +20,7 @@ max_date = df_hour["dteday"].max()
 
 
 
-st.title("Bike Sharing dashboard :moyai:")
+st.title("Bike Sharing dashboard :bike:")
 
 with st.sidebar:
     st.sidebar.title("Dataset Bike Share")
