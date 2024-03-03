@@ -56,6 +56,7 @@ ax.plot(
 )
 ax.tick_params(axis='y', labelsize=20)
 ax.tick_params(axis='x', labelsize=15)
+ax.set_ylim(0,max(daily_sum_data["cnt"])+200)
  
 st.pyplot(fig)
 
