@@ -101,7 +101,7 @@ wedges, _, _ = ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', st
 ax.axis('equal')  # Menyamakan skala sumbu x dan y untuk membuat lingkaran
 
 # Menambahkan legenda
-ax.legend(wedges, labels, title='Working Day', loc='center right', fontsize=35)
+ax.legend(wedges, labels, title='Working Day', loc='lower right', fontsize=35)
 
 # Menampilkan plot di Streamlit
 st.pyplot(fig)
