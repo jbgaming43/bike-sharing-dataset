@@ -66,7 +66,7 @@ fig, ax = plt.subplots(figsize=(35, 15))
  
 sns.barplot(x="hr", y="cnt", data=main_df, color="orange", ax=ax, ci=None)
 ax.set_ylabel(None)
-ax.set_xlabel("Number of Rent", fontsize=30)
+ax.set_xlabel("Time of Rent", fontsize=30)
 ax.tick_params(axis='y', labelsize=35)
 ax.tick_params(axis='x', labelsize=30)
 
